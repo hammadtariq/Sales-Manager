@@ -1,0 +1,26 @@
+{
+  "name": "salesman",
+  "version": "1.0.0",
+  "description": "salesman app using Mean",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node salesman"
+  },
+  "keywords": [
+    "angular",
+    "mean",
+    "nodejs",
+    "express"
+  ],
+  "author": "hammad tariq <hammadtariq@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.14.2",
+    "express": "4.13.3",
+    "mongoose": "4.3.5",
+    "firebase": "^2.3.2",
+    "q": "^1.4.1"
+  }
+ 
+}

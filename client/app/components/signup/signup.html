@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row col-md-8 col-md-offset-2">
+    <h1>Register Your Company</h1>
+    <hr>
+    <form #register='ngForm' (ngSubmit)="onSubmit(register.value)">
+        <div class="form-group">
+          <label for="cName">Company Name</label>
+          <input type="text" class="form-control" ngControl='companyName' required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" class="form-control" ngControl='email' required>
+        </div>
+        <div class="form-group">
+          <label for="pass">Password</label>
+          <input type="password" class="form-control" ngControl='pass' required>
+        </div>
+        <button type="submit" class="btn btn-default btn-primary">Submit</button>
+      </form>
+      <p>already have an account? <a [routerLink]="['Login']">click here</a></p>
+  </div>
+</div>
+
